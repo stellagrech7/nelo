@@ -7,7 +7,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-NT0BRD5ER0');
 </script>
 <meta charset="UTF-8">
@@ -15,74 +14,85 @@
 <meta name="google-site-verification" content="IyxKKGRXY2NYAXdXwRNlLuaeJ-fPSxcWy0MNfv_n5hA" />
 <title>Nelo — Lead Generation Agency</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #F0F7FF; color: #0A2540; }
-nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 48px; background: #F0F7FF; border-bottom: 1px solid #D6EAFF; }
-.logo { font-size: 24px; font-weight: 600; color: #0A2540; letter-spacing: -0.5px; }
-.nav-email { font-size: 13px; color: #5B8DB8; background: #D6EAFF; padding: 6px 16px; border-radius: 20px; text-decoration: none; }
-.hero { padding: 80px 48px 64px; background: #F0F7FF; max-width: 900px; }
-.hero-tag { display: inline-block; background: #E8DDFF; color: #5B35B0; font-size: 11px; font-weight: 600; padding: 5px 14px; border-radius: 20px; margin-bottom: 24px; letter-spacing: .08em; }
-.hero h1 { font-size: 52px; font-weight: 700; color: #0A2540; line-height: 1.1; margin-bottom: 20px; }
-.hero h1 .blue { color: #2B8BE0; }
-.hero p { font-size: 18px; color: #4A6F8A; line-height: 1.7; max-width: 520px; margin-bottom: 36px; }
+body { font-family: 'DM Sans', sans-serif; background: #F2F4FB; color: #0A1F3C; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 22px 52px; background: #F2F4FB; border-bottom: 1px solid #E0E6F4; }
+.logo-wrap { display: inline-flex; align-items: flex-start; gap: 2px; }
+.logo-text { font-size: 24px; font-weight: 700; color: #0A1F3C; letter-spacing: -0.5px; line-height: 1; }
+.logo-dots { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; margin-top: -2px; }
+.b1 { width: 11px; height: 11px; border-radius: 50%; background: #4A7FE5; }
+.b2 { width: 7px; height: 7px; border-radius: 50%; background: #B8A9F5; margin-left: 4px; }
+.nav-email { font-size: 13px; color: #5B6FA8; background: #E4E8F7; padding: 7px 18px; border-radius: 20px; text-decoration: none; }
+.hero { padding: 90px 52px 70px; background: #F2F4FB; max-width: 960px; }
+.hero-tag { display: inline-block; background: #EAE6FF; color: #6C52C8; font-size: 11px; font-weight: 600; padding: 5px 14px; border-radius: 20px; margin-bottom: 28px; letter-spacing: .08em; }
+.hero h1 { font-family: 'DM Serif Display', serif; font-size: 56px; color: #0A1F3C; line-height: 1.1; margin-bottom: 22px; font-weight: 400; }
+.hero h1 .accent { color: #4A7FE5; }
+.hero p { font-size: 18px; color: #4A5A7A; line-height: 1.75; max-width: 500px; margin-bottom: 38px; }
 .btn-row { display: flex; gap: 12px; flex-wrap: wrap; }
-.btn-primary { background: #2B8BE0; color: #fff; padding: 14px 28px; border-radius: 8px; font-size: 15px; font-weight: 600; border: none; cursor: pointer; text-decoration: none; display: inline-block; }
-.btn-secondary { background: #FFE8E0; color: #C4501A; padding: 14px 28px; border-radius: 8px; font-size: 15px; font-weight: 600; border: none; cursor: pointer; text-decoration: none; display: inline-block; }
-.cards { display: flex; gap: 16px; padding: 0 48px 56px; flex-wrap: wrap; }
-.card { border-radius: 16px; padding: 24px; flex: 1; min-width: 180px; }
-.card-blue { background: #D6EAFF; }
-.card-lavender { background: #E8DDFF; }
-.card-mint { background: #D6F5EE; }
-.card-peach { background: #FFE8E0; }
-.card-icon { font-size: 24px; margin-bottom: 10px; }
-.card-title { font-size: 15px; font-weight: 600; color: #0A2540; margin-bottom: 6px; }
-.card-text { font-size: 13px; color: #4A6F8A; line-height: 1.6; }
-.what { background: #fff; padding: 64px 48px; }
-.section-tag { font-size: 11px; font-weight: 600; letter-spacing: .1em; color: #5B8DB8; margin-bottom: 14px; }
-.what h2 { font-size: 34px; font-weight: 700; color: #0A2540; margin-bottom: 14px; line-height: 1.2; }
-.what p { font-size: 16px; color: #4A6F8A; line-height: 1.7; margin-bottom: 36px; max-width: 560px; }
-.checks { display: flex; flex-direction: column; gap: 14px; max-width: 600px; }
-.check { display: flex; align-items: center; gap: 14px; font-size: 15px; color: #0A2540; padding: 16px 20px; border-radius: 12px; }
-.check-blue { background: #F0F7FF; }
-.check-lavender { background: #F4F0FF; }
-.check-mint { background: #EDFAF6; }
+.btn-primary { background: #0A1F3C; color: #fff; padding: 14px 30px; border-radius: 8px; font-size: 15px; font-weight: 500; text-decoration: none; display: inline-block; }
+.btn-secondary { background: transparent; color: #0A1F3C; padding: 14px 30px; border-radius: 8px; font-size: 15px; font-weight: 500; border: 1.5px solid #C8D0E8; text-decoration: none; display: inline-block; }
+.cards { display: flex; gap: 14px; padding: 0 52px 60px; flex-wrap: wrap; }
+.card { border-radius: 18px; padding: 26px; flex: 1; min-width: 180px; }
+.card-blue { background: #E4EDF9; }
+.card-lavender { background: #EAE6FF; }
+.card-mint { background: #E2F4EE; }
+.card-icon { font-size: 22px; margin-bottom: 12px; }
+.card-title { font-size: 15px; font-weight: 600; color: #0A1F3C; margin-bottom: 6px; }
+.card-text { font-size: 13px; color: #4A5A7A; line-height: 1.6; }
+.what { background: #fff; padding: 70px 52px; }
+.section-tag { font-size: 11px; font-weight: 600; letter-spacing: .1em; color: #7A8FB5; margin-bottom: 16px; }
+.what h2 { font-family: 'DM Serif Display', serif; font-size: 36px; font-weight: 400; color: #0A1F3C; margin-bottom: 16px; line-height: 1.25; }
+.what p { font-size: 16px; color: #4A5A7A; line-height: 1.75; margin-bottom: 38px; max-width: 540px; }
+.checks { display: flex; flex-direction: column; gap: 14px; max-width: 580px; }
+.check { display: flex; align-items: center; gap: 14px; font-size: 15px; color: #0A1F3C; padding: 16px 20px; border-radius: 14px; }
+.check-blue { background: #F2F4FB; }
+.check-lavender { background: #F4F1FF; }
+.check-mint { background: #EDFAF5; }
 .dot { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #fff; flex-shrink: 0; font-weight: 600; }
-.dot-blue { background: #2B8BE0; }
-.dot-lavender { background: #7B52D4; }
+.dot-blue { background: #4A7FE5; }
+.dot-lavender { background: #B8A9F5; }
 .dot-mint { background: #1DB88A; }
-.contact { background: #0A2540; padding: 64px 48px; }
-.contact .section-tag { color: #BFE0FF; }
-.contact h2 { font-size: 40px; font-weight: 700; color: #fff; margin-bottom: 12px; }
-.contact p { font-size: 16px; color: #8AB4D4; margin-bottom: 32px; }
-.email-btn { display: inline-flex; align-items: center; gap: 10px; background: #2B8BE0; color: #fff; padding: 16px 28px; border-radius: 10px; font-size: 15px; font-weight: 600; text-decoration: none; }
-footer { background: #071828; padding: 20px 48px; display: flex; justify-content: space-between; align-items: center; }
-.footer-logo { color: #BFE0FF; font-size: 18px; font-weight: 600; }
-.footer-text { color: #4A6F8A; font-size: 13px; }
+.contact { background: #0A1F3C; padding: 70px 52px; }
+.contact .section-tag { color: #8A9DC5; }
+.contact h2 { font-family: 'DM Serif Display', serif; font-size: 44px; font-weight: 400; color: #fff; margin-bottom: 14px; }
+.contact p { font-size: 16px; color: #6A83A8; margin-bottom: 34px; }
+.email-btn { display: inline-flex; align-items: center; gap: 10px; background: #4A7FE5; color: #fff; padding: 16px 30px; border-radius: 10px; font-size: 15px; font-weight: 500; text-decoration: none; }
+footer { background: #07182E; padding: 22px 52px; display: flex; justify-content: space-between; align-items: center; }
+.footer-logo-wrap { display: inline-flex; align-items: flex-start; gap: 2px; }
+.footer-logo-text { color: #8AADD4; font-size: 18px; font-weight: 700; letter-spacing: -0.5px; line-height: 1; }
+.footer-dots { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; margin-top: -2px; }
+.fb1 { width: 8px; height: 8px; border-radius: 50%; background: #4A7FE5; }
+.fb2 { width: 5px; height: 5px; border-radius: 50%; background: #B8A9F5; margin-left: 3px; }
+.footer-text { color: #3A5070; font-size: 13px; }
 @media (max-width: 600px) {
   nav, .hero, .cards, .what, .contact, footer { padding-left: 20px; padding-right: 20px; }
-  .hero h1 { font-size: 34px; }
+  .hero h1 { font-size: 36px; }
   .cards { flex-direction: column; }
 }
 </style>
 </head>
 <body>
-
 <nav>
-  <div class="logo">Nelo</div>
+  <div class="logo-wrap">
+    <span class="logo-text">nelo</span>
+    <div class="logo-dots">
+      <div class="b1"></div>
+      <div class="b2"></div>
+    </div>
+  </div>
   <a href="mailto:hello@getnelo.net" class="nav-email">hello@getnelo.net</a>
 </nav>
-
 <div class="hero">
   <div class="hero-tag">✦ LEAD GENERATION AGENCY</div>
-  <h1>We fill your <span class="blue">pipeline.</span><br>You close the deals.</h1>
+  <h1>We fill your <span class="accent">pipeline.</span><br>You close the deals.</h1>
   <p>Qualified leads delivered to your inbox every week. We handle the outreach so you can focus on what you do best.</p>
   <div class="btn-row">
     <a href="mailto:hello@getnelo.net" class="btn-primary">Get in touch</a>
     <a href="#what" class="btn-secondary">See how it works</a>
   </div>
 </div>
-
 <div class="cards">
   <div class="card card-blue">
     <div class="card-icon">🔍</div>
@@ -99,13 +109,12 @@ footer { background: #071828; padding: 20px 48px; display: flex; justify-content
     <div class="card-title">You close</div>
     <div class="card-text">Only warm, interested leads land in your inbox</div>
   </div>
-  <div class="card card-peach">
+  <div class="card card-lavender">
     <div class="card-icon">📈</div>
     <div class="card-title">You grow</div>
     <div class="card-text">More clients, more revenue, zero extra effort</div>
   </div>
 </div>
-
 <div class="what" id="what">
   <div class="section-tag">WHAT WE DO</div>
   <h2>Qualified leads delivered to<br>your inbox every week</h2>
@@ -116,18 +125,21 @@ footer { background: #071828; padding: 20px 48px; display: flex; justify-content
     <div class="check check-mint"><div class="dot dot-mint">✓</div>You only deal with people who are already interested</div>
   </div>
 </div>
-
 <div class="contact">
   <div class="section-tag">READY TO GROW?</div>
   <h2>Let's talk</h2>
   <p>Email us and we'll get back to you within 24 hours.</p>
   <a href="mailto:hello@getnelo.net" class="email-btn">✉ hello@getnelo.net</a>
 </div>
-
 <footer>
-  <div class="footer-logo">Nelo</div>
-  <div class="footer-text">© 2025 Nelo. All rights reserved.</div>
+  <div class="footer-logo-wrap">
+    <span class="footer-logo-text">nelo</span>
+    <div class="footer-dots">
+      <div class="fb1"></div>
+      <div class="fb2"></div>
+    </div>
+  </div>
+  <div class="footer-text">© 2026 Nelo. All rights reserved.</div>
 </footer>
-
 </body>
 </html>
